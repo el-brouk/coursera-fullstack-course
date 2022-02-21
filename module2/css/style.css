@@ -1,0 +1,28 @@
+body {
+  font-family: monaco;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.box {
+	border: 1px solid black;
+	margin: 15px;
+	background-color: grey;
+	box-sizing: border-box;
+	
+}
+
+#name1 {
+	background-color: pink;
+	text-align: right;
+	padding-right: 40px;
+	padding-left: 40px;
+	border: 1px solid black;
+}
+
+p {
+	padding: 15px;
+}
