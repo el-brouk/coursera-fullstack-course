@@ -10,22 +10,19 @@
 .navbar-brand h1 { /* company name */
   font-family: 'Oxygen', sans-serif;
   font-size: 1.5em;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-left: 15%;
+  margin-left: 10%;
+  color: black;
+  width: 400px;
+  margin-top: 0px;
+
+ 
+}
+
+ button.navbar-toggle .icon-bar {
+	border: 2px solid black;
+}
+
+ .navbar-default .navbar-toggle {
+  border: 1px solid black;
   
-}
-
-
-.navbar-toggle {
-	position: relative;
-	float: right;
-	background-color: transparent;
-	border: 1px solid black;
-}
-
-@media (min-width: 768px) {
-	.navbar-toggle {
-		display: none;	
-	}
 }
