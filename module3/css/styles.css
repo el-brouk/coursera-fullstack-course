@@ -14,15 +14,23 @@
   color: black;
   width: 400px;
   margin-top: 0px;
-
- 
 }
 
  button.navbar-toggle .icon-bar {
 	border: 2px solid black;
 }
 
- .navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle {
   border: 1px solid black;
-  
+}
+
+#nav-list {
+ color: red;
+ font-weight: bold;
+ text-align: center; 
+ 
+}
+
+#collapsable-nav #nav-list {
+  background-color: white;
 }
