@@ -1,14 +1,17 @@
 
+body {
+ font-family: 'Oxygen', sans-serif;
+}
 /** HEADER **/
 #header-nav {
   background-color: grey;
   border-radius: 0;
   border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 
 .navbar-brand h1 { /* company name */
-  font-family: 'Oxygen', sans-serif;
   font-size: 1.5em;
   margin-left: 10%;
   color: black;
@@ -25,12 +28,40 @@
 }
 
 #nav-list {
- color: red;
+ margin: 0px;
  font-weight: bold;
  text-align: center; 
  
 }
 
-#collapsable-nav #nav-list {
+@media (max-width: 767px) {
+  #collapsable-nav {
   background-color: white;
+
 }
+#nav-list li {
+  border: 1px solid black;
+  color: red;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+}
+
+#heading1 {
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: grey;
+}
+
+
+
+.box, p {
+  font-size: 1.2em;
+  margin-left: 5%; 
+  margin-right: 5%;
+}
+
+
