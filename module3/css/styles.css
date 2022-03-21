@@ -54,8 +54,10 @@ body {
 .box {
   border: 1px solid black;
   background-color: grey;
-}
+  margin-bottom: 30px;
+  margin-left: 0px;
 
+}
 
 
 .box, p {
@@ -64,4 +66,9 @@ body {
   margin-right: 5%;
 }
 
+.col-sm-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+  
 
